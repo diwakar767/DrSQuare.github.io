@@ -1,0 +1,200 @@
+body{
+    font-family: 'Montserrat Alternates',monospace;
+}
+.container-fluid{
+    padding: 2% 15%;
+}
+.init{
+    font-family:  monospace;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #11052C;
+}
+.title{
+    background-color: #FFDEDE;
+}
+.navbar{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bolder ;
+}
+.down-but{
+    margin: 5% 3% 5% 0%;
+}
+.title-img{
+    width:17rem;
+    transform: rotate(20deg);
+    border-radius: 10%;
+    position: absolute;  
+    right: 25%;  
+}
+
+.fetures{
+    color:#11052C;
+    padding: 7% 15%;
+    position: relative;    
+}
+.fet-i{
+    color:#FF6B6B ; 
+    margin-bottom: 9%;   
+}
+.fet-i:hover{
+    color: #3DB2FF;
+}
+.feture-box{
+    text-align: center;
+    padding: 5%;
+}
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#quotes-carousel{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFF7AE;
+    line-height: 1.5rem;
+    color: #11052C;
+    margin: 0% 5% 5% 5%;
+}
+.membership-card{
+    text-align: center;
+    margin: 3%;
+}
+.card{
+    background-color: #FFF6CD;
+    font-weight: bold;
+}
+@media (min-width: 1050px){
+#About{
+    text-align:left;
+    margin:3% 5%;
+    padding: 3% 15%;
+    font-size: 1.5rem;
+    
+    line-height: 2rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #B1FFFD;
+    border-radius: 100%;
+}
+}
+.what-we-do{
+    width: 50%;
+    background-color: #FFEACA;
+    padding: 3% 5%;
+    font-weight: bold;
+    
+}
+.how-to{
+    width: 50%;
+    background-color: #FFF7AE;
+    margin-left: 50%;
+    padding: 3% 5%;
+    font-weight: bold;
+}
+.donate{
+    width: 50%;
+    background-color: #80ED99;
+    padding: 3% 5%;
+    font-weight: bold;
+}
+.founder{
+    width: 50%;
+    background-color: #FFE194;
+    margin-left: 50%;
+    padding: 3% 5%;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    margin: 3% 30%;
+    background-color: #B1FFFD;
+    border-radius: 100%;
+}
+.fa-linkedin-in,.fa-twitter,.fa-mailchimp,.fa-facebook,.fa-instagram{
+    margin:2px 15px;
+    padding: 5px;
+}
+.last{
+    background-color: #FFDEDE;
+    text-align: center;
+    padding: 2%;
+    margin: 2% 0%;
+    font-weight: bolder;
+    font-size: larger;
+}
+@media (max-width: 1050px){
+    .title-img{
+        width:17rem;
+        margin-left: 15%;
+        transform: rotate(0deg);
+        border-radius: 10%;
+        position: static;  
+          
+    }
+    .init{
+        font-family:  monospace;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: bold;
+        color: #11052C;
+    }
+    #About{
+        text-align:center;
+        margin:3% 5%;
+        padding: 3% 15%;
+        font-size: 1.5rem;
+        
+        line-height: 2rem;
+        font-weight: bold;
+        color: #000;
+        background-color: #B1FFFD;
+        border-radius: 20%;
+    }
+     .micro-img{
+        border-radius:10%; 
+        transform: rotate(0deg); 
+        width: 60%;
+        margin-right: 10%;
+        padding-bottom: 3%;
+    } 
+    .what-we-do{
+        text-align: center;
+        width: 50%;
+        background-color: #FFEACA;
+        padding: 3% 5%;
+        font-weight: bold;
+        
+    }
+    .how-to{
+        text-align: center;
+        width: 50%;
+        background-color: #FFF7AE;
+        margin-left: 50%;
+        padding: 3% 5%;
+        font-weight: bold;
+    }
+    .donate{
+        text-align: center;
+        width: 50%;
+        background-color: #80ED99;
+        padding: 3% 5%;
+        font-weight: bold;
+    }
+    .founder{
+        text-align: center;
+        width: 50%;
+        background-color: #FFE194;
+        margin-left: 50%;
+        padding: 3% 5%;
+        font-weight: bold;
+    }
+}

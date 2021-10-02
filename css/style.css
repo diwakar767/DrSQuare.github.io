@@ -168,7 +168,7 @@ body{
     } 
     .what-we-do{
         text-align: center;
-        width: 50%;
+        width: 100%;
         background-color: #FFEACA;
         padding: 3% 5%;
         font-weight: bold;
@@ -176,24 +176,24 @@ body{
     }
     .how-to{
         text-align: center;
-        width: 50%;
+        width: 100%;
         background-color: #FFF7AE;
-        margin-left: 50%;
+        margin-left: 0%;
         padding: 3% 5%;
         font-weight: bold;
     }
     .donate{
         text-align: center;
-        width: 50%;
+        width: 100%;
         background-color: #80ED99;
         padding: 3% 5%;
         font-weight: bold;
     }
     .founder{
         text-align: center;
-        width: 50%;
+        width: 100%;
         background-color: #FFE194;
-        margin-left: 50%;
+        margin-left: 0%;
         padding: 3% 5%;
         font-weight: bold;
     }
